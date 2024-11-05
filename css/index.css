@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+ /*variables de color*/
+:root{
+    --cir-black: #1c1c1c;
+    --cir-gray: #ececec;
+    --cir-white: #f7f7f7;
+
+    --type-normal: #a8a878;
+    --type-fire: #f08030;
+    --type-water: #6890f0;
+    --type-grass: #78c850;
+    --type-electric: #f8d030;
+    --type-ice: #98d8d8;
+    --type-fighting: #c03028;
+    --type-poison: #a040a0;
+    --type-ground: #e0c068;
+    --type-flying: #a890f0;
+    --type-psychic: #f85888;
+    --type-bug: #a8b820;
+    --type-rock: #88a038;
+    --type-ghost: #705898;
+    --type-dark: #705848;
+    --type-dragon: #7038f8;
+    --type-steel: #b8B8d0;
+    --type-fairy: #f0b6bc;
+
+}
+
+/*reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--cir-black);
+    font-family: 'Rubik','sans-serif';
+}
+
+/*reset de lista*/
+ul{
+    list-style-type: none;
+}
+
+/*reset de botones*/
+button{
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+}
+
+/*classes de botones*/
+.normal{
+    background-color: var(--type-normal);
+    color: var(--cir-black);
+}
+.fire{
+    background-color: var(--type-fire);
+    color: var(--cir-black);
+}
+.water{
+    background-color: var(--type-water);
+    color: var(--cir-white);
+}
+.grass{
+    background-color: var(--type-grass);
+    color: var(--cir-black);
+}
+.electric{
+    background-color: var(--type-electric);
+    color: var(--cir-black);
+}
+.ice{
+    background-color: var(--type-ice);
+    color: var(--cir-black);
+}
+.fighting{
+    background-color: var(--type-fighting);
+    color: var(--cir-white);
+}
+.poison{
+    background-color: var(--type-poison);
+    color: var(--cir-white);
+}
+.ground{
+    background-color: var(--type-ground);
+    color: var(--cir-black);
+}
+.flying{
+    background-color: var(--type-flying);
+    color: var(--cir-black);
+}
+.psychic{
+    background-color: var(--type-psychic);
+    color: var(--cir-black);
+}
+.bug{
+    background-color: var(--type-bug);
+    color: var(--cir-black);
+}
+.rock{
+    background-color: var(--type-rock);
+    color: var(--cir-white);
+}
+.ghost{
+    background-color: var(--type-ghost);
+    color: var(--cir-white);
+}
+.dark{
+    background-color: var(--type-dark);
+    color: var(--cir-white);
+}
+.dragon{
+    background-color: var(--type-dragon);
+    color: var(--cir-white);
+}
+.steel{
+    background-color: var(--type-steel);
+    color: var(--cir-black);
+}
+.fairy{
+    background-color: var(--type-fairy);
+    color: var(--cir-black);
+}
